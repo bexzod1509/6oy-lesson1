@@ -1,0 +1,32 @@
+.b img {
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+}
+.b h1 {
+  font-size: 28px;
+  max-width: 324px;
+  color: #191919;
+}
+.b p {
+  font-size: 16px;
+  color: #191919;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.b button {
+  padding: 4px 10px;
+  background: #191919;
+  font-size: 14px;
+  color: #fff;
+  border-style: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.b1 {
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.e1 {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.e1 h1 {
+  font-size: 21px;
+  color: #191919;
+  transition: 0.3s linear;
+  margin-top: 20px;
+}
+.e1 p {
+  font-size: 12px;
+  color: #191919;
+  max-width: 220px;
+  text-align: center;
+  transition: 0.3s linear;
+  margin-top: 20px;
+}
+.e1 svg {
+  fill: gray;
+  transition: 0.3s linear;
+}
+.e1:hover p {
+  color: #ff6900;
+}
+.e1:hover h1 {
+  color: #ff6900;
+}
+.e1:hover svg {
+  fill: #ff6900;
+}
+.e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}

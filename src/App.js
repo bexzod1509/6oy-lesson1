@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./Navbar/Navbar";
+import Bgsection from "./Bgsection/Bgsection";
+import Products from "./Products/Product";
+import Xiaomi from "./Xiaomi/Xiaomi";
+import Support from "./Support/Support";
+import Footer from "./Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Bgsection />
+      <Products />
+      <Xiaomi />
+      <Support />
+      <Footer />
     </div>
   );
 }

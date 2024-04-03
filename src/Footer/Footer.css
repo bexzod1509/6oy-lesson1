@@ -1,0 +1,71 @@
+.footer {
+  background: #191919;
+  padding-top: 40px;
+  margin-top: 60px;
+  padding-bottom: 25px;
+}
+.f1 h1 {
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+.f1 p {
+  font-size: 14px;
+  color: #898989;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.f1 p:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.f2 h1 {
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+.f2 input {
+  width: 320px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 2px solid #b0bbb0;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+.f {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  border-bottom: 2px solid #b0bbb0;
+  padding-bottom: 60px;
+}
+.f4 {
+  padding: 15px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.f4 p {
+  font-size: 14px;
+  color: #fff;
+}
+.f5 {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.f3 svg {
+  fill: #fff;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.f3 {
+  display: flex;
+  gap: 10px;
+}
+.f2 {
+  text-align: left;
+}
+.f2 h1 {
+  margin-bottom: 20px;
+}

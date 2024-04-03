@@ -1,0 +1,33 @@
+.d1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.d1 h1 {
+  color: #191919;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.d1 p {
+  font-size: 16px;
+  max-width: 370px;
+  text-align: center;
+  margin-top: 15px;
+}
+.d1 img {
+  width: 450px;
+  border-radius: 8px 8px 0px 0px;
+}
+.d {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: center;
+}
+.d2 {
+  text-align: center;
+  font-size: 24px;
+  color: #191919;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
